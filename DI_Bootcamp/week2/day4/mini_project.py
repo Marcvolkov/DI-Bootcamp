@@ -2,7 +2,7 @@ def display_board(board):
     """Displays the current state of the Tic Tac Toe board."""
     for row in board:
         print(" | ".join(row))
-        print("-" * 5)
+        print("-" * 10)
 
 
 def player_input(player):
