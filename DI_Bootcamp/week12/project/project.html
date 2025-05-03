@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Star Wars Web App</title>
+  <!-- FontAwesome for spinner icon -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      color: white;
+      background: url('https://i.imgur.com/Ge2kf0T.jpg') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #feda4a;
+      text-shadow: 0 0 5px black;
+      margin-bottom: 20px;
+    }
+    #card {
+      border: 2px solid #feda4a;
+      border-radius: 8px;
+      padding: 20px;
+      width: 320px;
+      min-height: 200px;
+      text-align: center;
+      background: rgba(0,0,0,0.5);
+    }
+    #card h2 {
+      margin: 0 0 10px;
+    }
+    #card p {
+      margin: 8px 0;
+    }
+    #findBtn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #feda4a;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    #findBtn:hover {
+      background: #ffe86b;
+    }
+  </style>
+</head>
+<body>
+  <h1>STAR WARS</h1>
+
+  <div id="card">
+    <!-- initial content -->
+    Click “Find Someone” to load a character!
+  </div>
+
+  <button id="findBtn">Find Someone</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
