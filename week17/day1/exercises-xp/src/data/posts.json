@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "First Post",
+    "content": "This is the content of the first post. It contains some interesting information about React and web development."
+  },
+  {
+    "id": 2,
+    "title": "Learning React",
+    "content": "React is a powerful JavaScript library for building user interfaces. It makes it easy to create interactive UIs."
+  },
+  {
+    "id": 3,
+    "title": "JSON and React",
+    "content": "Working with JSON data in React is straightforward. You can easily map over arrays and display data dynamically."
+  }
+]

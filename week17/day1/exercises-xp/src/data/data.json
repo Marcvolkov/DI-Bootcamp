@@ -1,0 +1,69 @@
+{
+  "SocialMedias": [
+    "https://www.facebook.com",
+    "https://www.instagram.com", 
+    "https://www.twitter.com"
+  ],
+  "Skills": [
+    {
+      "Area": "Programming",
+      "SkillSet": [
+        {
+          "Name": "Javascript",
+          "Hot": true
+        },
+        {
+          "Name": "React",
+          "Hot": true
+        },
+        {
+          "Name": "Python", 
+          "Hot": false
+        }
+      ]
+    },
+    {
+      "Area": "Design",
+      "SkillSet": [
+        {
+          "Name": "Photoshop",
+          "Hot": true
+        },
+        {
+          "Name": "After Effects",
+          "Hot": false
+        }
+      ]
+    }
+  ],
+  "Experiences": [
+    {
+      "companyName": "Tech Corp",
+      "logo": "https://via.placeholder.com/50",
+      "url": "https://techcorp.com",
+      "roles": [
+        {
+          "title": "Frontend Developer",
+          "description": "Developed user interfaces using React",
+          "startDate": "2022-01-01",
+          "endDate": "2023-12-31",
+          "technologies": ["React", "JavaScript", "CSS"]
+        }
+      ]
+    },
+    {
+      "companyName": "Design Studio",
+      "logo": "https://via.placeholder.com/50", 
+      "url": "https://designstudio.com",
+      "roles": [
+        {
+          "title": "UI Designer",
+          "description": "Created beautiful user interfaces",
+          "startDate": "2021-06-01",
+          "endDate": "2021-12-31",
+          "technologies": ["Figma", "Photoshop"]
+        }
+      ]
+    }
+  ]
+}

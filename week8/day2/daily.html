@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Challenge: Mad Libs</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    form, .result, .controls { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+
+  <h1>Mad Libs</h1>
+
+  <form id="libform">
+    <label for="noun">Noun:</label>
+    <input type="text" id="noun"><br>
+
+    <label for="adjective">Adjective:</label>
+    <input type="text" id="adjective"><br>
+
+    <label for="person">Someone’s Name:</label>
+    <input type="text" id="person"><br>
+
+    <label for="verb">Verb:</label>
+    <input type="text" id="verb"><br>
+
+    <label for="place">A place:</label>
+    <input type="text" id="place"><br><br>
+
+    <button type="submit" id="lib-button">Lib it!</button>
+  </form>
+
+  <div class="controls">
+    <!-- bonus: shuffle without re-entering values -->
+    <button type="button" id="shuffle-button" disabled>Shuffle Story</button>
+  </div>
+
+  <div class="result">
+    <strong>Generated story:</strong>
+    <span id="story"></span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

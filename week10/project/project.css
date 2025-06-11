@@ -1,0 +1,71 @@
+/* Reset & base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #564fad;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+header {
+  width: 100%;
+  background: #7cb342;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  color: #222;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+header input {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #222;
+  border-radius: 4px;
+}
+
+/* Card grid */
+#cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap: 20px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px 0;
+}
+
+/* Individual card */
+.card {
+  background: #4a148c;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  transition: transform .2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  width: 100%;
+  height: auto;
+  background: #222;
+}
+.card .info {
+  padding: 10px;
+}
+.card .info h2 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+.card .info p {
+  font-size: .9rem;
+  opacity: .8;
+}
