@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Type Assertions Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .container {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        input, button {
+            padding: 8px 12px;
+            margin: 5px;
+            font-size: 14px;
+        }
+        button {
+            background-color: #007cba;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005a8a;
+        }
+        #myDiv {
+            min-height: 50px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>TypeScript Type Assertions Demo</h1>
+    
+    <div class="container">
+        <h3>Input Element:</h3>
+        <input id="myInput" type="text" placeholder="Original placeholder">
+        <button onclick="setInputValue()">Set Input Value</button>
+    </div>
+    
+    <div class="container">
+        <h3>Button Element:</h3>
+        <button id="myButton">Original Button</button>
+        <button onclick="setupButton()">Setup Button</button>
+    </div>
+    
+    <div class="container">
+        <h3>Div Element:</h3>
+        <div id="myDiv">Original div content</div>
+        <button onclick="updateDiv()">Update Div</button>
+    </div>
+    
+    <div class="container">
+        <h3>Span Element:</h3>
+        <span id="mySpan">Original span</span>
+        <button onclick="alternativeSyntax()">Update Span</button>
+    </div>
+    
+    <div class="container">
+        <h3>Safe Type Assertion:</h3>
+        <button onclick="safeTypeAssertion()">Safe Update Input</button>
+    </div>
+
+    <script src="exercise7.js"></script>
+</body>
+</html>

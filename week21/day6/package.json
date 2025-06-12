@@ -1,0 +1,31 @@
+{
+  "name": "typescript-advanced-types",
+  "version": "1.0.0",
+  "description": "TypeScript advanced types exercises for Week 21 Day 6",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node",
+    "ex1": "ts-node exercise1.ts",
+    "ex2": "ts-node exercise2.ts",
+    "ex3": "ts-node exercise3.ts",
+    "ex4": "ts-node exercise4.ts",
+    "ex5": "ts-node exercise5.ts",
+    "ex6": "ts-node exercise6.ts",
+    "ex7": "ts-node exercise7.ts",
+    "daily": "ts-node daily-challenge.ts",
+    "all": "npm run ex1 && npm run ex2 && npm run ex3 && npm run ex4 && npm run ex5 && npm run ex6 && npm run ex7",
+    "test": "npm run all",
+    "demo": "npm run all && npm run daily"
+  },
+  "keywords": ["typescript", "intersection-types", "type-guards", "generics", "constraints"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

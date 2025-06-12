@@ -1,0 +1,27 @@
+{
+  "name": "typescript-oop-exercises",
+  "version": "1.0.0",
+  "description": "TypeScript OOP exercises for Week 21 Day 4",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node",
+    "ex1": "ts-node exercise1.ts",
+    "ex2": "ts-node exercise2.ts",
+    "ex3": "ts-node exercise3.ts",
+    "ex4": "ts-node exercise4.ts",
+    "ex5": "ts-node exercise5.ts",
+    "daily": "ts-node daily-challenge.ts",
+    "all": "npm run ex1 && npm run ex2 && npm run ex3 && npm run ex4 && npm run ex5",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["typescript", "oop", "classes", "interfaces", "inheritance"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

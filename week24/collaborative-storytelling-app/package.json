@@ -1,0 +1,41 @@
+{
+  "name": "collaborative-storytelling-app",
+  "version": "1.0.0",
+  "description": "A collaborative storytelling platform with real-time editing and version control",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend",
+    "types"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:types && npm run build:backend && npm run build:frontend",
+    "build:types": "cd types && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "setup": "npm install && npm run setup:backend && npm run setup:frontend && npm run setup:types",
+    "setup:backend": "cd backend && npm install",
+    "setup:frontend": "cd frontend && npm install",
+    "setup:types": "cd types && npm install",
+    "db:setup": "cd backend && npm run db:setup",
+    "db:migrate": "cd backend && npm run db:migrate",
+    "db:seed": "cd backend && npm run db:seed"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "storytelling",
+    "collaboration",
+    "typescript",
+    "react",
+    "node.js",
+    "postgresql"
+  ],
+  "author": "Professional Developer",
+  "license": "MIT"
+}
